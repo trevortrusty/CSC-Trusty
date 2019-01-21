@@ -3,7 +3,7 @@
 // Title:      <application>
 // Course:     CSC 1101
 // Lab Number: <number>
-// Author:     <name>
+// Author:     Trevor Trusty
 // Date:       <date>
 // Description:
 //   <brief description of application including its inputs,

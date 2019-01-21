@@ -1,0 +1,5 @@
+﻿  WarmupLab02.cpp
+c:\users\tsqua\documents\github\csc-trusty\csc 1101\lab code\warmuplab02.cpp(28): warning C4101: 'c': unreferenced local variable
+c:\users\tsqua\documents\github\csc-trusty\csc 1101\lab code\warmuplab02.cpp(26): warning C4101: 'r': unreferenced local variable
+  WarmupLab02.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  WarmUpLab2.vcxproj -> C:\Users\tsqua\Documents\Github\CSC-Trusty\CSC 1101\Projects\WarmUpLab2\x64\Debug\WarmUpLab2.exe
