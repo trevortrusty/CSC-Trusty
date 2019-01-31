@@ -21,37 +21,43 @@ using namespace std; // So "std::cout" may be abbreviated to "cout"
 int main()
 {
 
-  // Declare variables
-  //int i;
-  //double r;
-  string s;
-  //char c;
+// Declare variables
+	string s;
+	ifstream myFile ("Chung1");
+	string line;
+// Show application header
+	//cout << "Welcome to my Application!" << endl;
+	//cout << "--------------------------" << endl << endl;
 
-  // Show application header
-  cout << "Welcome to my Application!" << endl;
-  cout << "--------------------------" << endl << endl;
+// Read from console
+	cout << "State your name: ";
+	cin >> s;
+// Print the Chungi
+	myFile.open("Chung1.txt");
 
-  // Read from console
-  cout << "State your name: ";
+	if (myFile.is_open()) 
+	{
+		while (getline(myFile, line))
+		{
+			cout << line << '\n';
+		}
+		myFile.close();
+	}
+	else cout << "Unable to open file chung1.txt" << endl; 
+	myFile.close();
+		
 
-  // Print the Chungi
-	  cin >> s;
-		  std::ifstream f("chung1.txt");
-
-		  if (f.is_open())
-			  std::cout << f.rdbuf();
-
-  //Output user's new name
-  cout << "Your name is: Big Chungus" << endl;
+//Output user's new name
+	cout << "Your name is: Big Chungus" << endl;
 
   // Write to screen
   //cout << "Hello World!" << endl;
 
-  // Show application close
-  cout << "\nEnd of Chunga v1.0" << endl << endl;
+// Show application close
+	cout << "\nEnd of Chunga v1.0" << endl << endl;
 
-  // Pause before application window closes
-  cout << "Press any key to exit ..." << endl;
-  _getch();
+// Pause before application window closes
+	cout << "Press any key to exit ..." << endl;
+	_getch();
 
 }
