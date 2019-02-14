@@ -25,7 +25,7 @@
     <ResourceCompile Include="ConApp2017.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lab Code\Chunga.cpp" />
+    <ClCompile Include="..\..\..\Lab Code\cinSimulator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -1,15 +1,4 @@
-//==========================================================
-//
-// Title:      <application>
-// Course:     CSC 1101
-// Lab Number: <number>
-// Author:     Trevor Trusty
-// Date:       <date>
-// Description:
-//   <brief description of application including its inputs,
-// processing, and outputs>
-//
-//==========================================================
+
 #include <conio.h> // For function getch()
 #include <cstdlib> // For several general-purpose functions
 #include <fstream> // For file handling
@@ -21,42 +10,73 @@ using namespace std; // So "std::cout" may be abbreviated to "cout"
 int main()
 {
 
-// Declare variables
-	string s;
-	ifstream myFile ("Chung1");
+	// Declare variables
+	ifstream bigFile ("Chung1");
+	ifstream shaggyFile("Shaggy");
 	string line;
-// Show application header
+	string meme;
+	char open;
+	// Show application header
 	//cout << "Welcome to my Application!" << endl;
 	//cout << "--------------------------" << endl << endl;
-
-// Read from console
-	cout << "State your name: ";
-	cin >> s;
-// Print the Chungi
-	myFile.open("Chung1.txt");
-
-	if (myFile.is_open()) 
+	bigFile.open("Chung1.txt");
+	shaggyFile.open("shaggy.txt");
+	do
 	{
-		while (getline(myFile, line))
+
+		// Read from console
+		cout << "Enter meme: ";
+		getline(cin, meme);
+
+		//Test user input
+		//while (meme != "Big Chungus" && meme != "Shaggy")
+		//{
+		//	cout << "\nUnknown meme, try again!" << endl;
+		//	cout << "\nEnter meme: ";
+		//	cin.ignore();
+		//	getline(cin, meme);
+		//}
+
+		// Print the Chungi
+		if (meme == "Big Chungus")
 		{
-			cout << line << '\n';
+			if (bigFile.is_open())
+			{
+				while (getline(bigFile, line))
+				{
+					cout << line << '\n';
+				}
+				bigFile.close();
+			}
+			else cout << "Unable to open file chung1.txt" << endl;
+			
 		}
-		myFile.close();
-	}
-	else cout << "Unable to open file chung1.txt" << endl; 
-	myFile.close();
+		else if (meme == "Shaggy")
+		{
+			if (shaggyFile.is_open())
+			{
+				while (getline(shaggyFile, line))
+				{
+					cout << line << '\n';
+				}
+				shaggyFile.close();
+			}
+			else cout << "Unable to open file shaggy.txt" << endl;
 		
+		}
+		//Prompt User to Continue or Exit
+		cout << "Would you like to continue? : ";
+		cin >> open;
 
-//Output user's new name
-	cout << "Your name is: Big Chungus" << endl;
-
-  // Write to screen
-  //cout << "Hello World!" << endl;
-
-// Show application close
+	} while (open == 'y');
+	////Output user's new name
+	//cout << "Your name is: Big Chungus" << endl;
+	bigFile.close();
+	shaggyFile.close();
+	//Show application close
 	cout << "\nEnd of Chunga v1.0" << endl << endl;
 
-// Pause before application window closes
+	//Pause before application window closes
 	cout << "Press any key to exit ..." << endl;
 	_getch();
 
