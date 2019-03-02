@@ -20,29 +20,14 @@ using namespace std; // So "std::cout" may be abbreviated to "cout"
 
 int main()
 {
+	double num[5];
 
-  // Declare variables
-  //int i;
-  //double r;
-  //string s;
-  //char c;
-
-  // Show application header
-  cout << "Welcome to my Application!" << endl;
-  cout << "--------------------------" << endl << endl;
-
-  // Read from console
-  //cout << "Enter a number: ";
-  //cin >> i;
-
-  // Write to screen
-  cout << "Hello World!" << endl;
-
-  // Show application close
-  cout << "\nEnd of my Application" << endl << endl;
+	for (int x = 0; x < 5; x++)
+	{
+		num[x] = 5;
+	}
 
   // Pause before application window closes
-  cout << "Press any key to exit ..." << endl;
+  cout << "\nPress any key to exit ..." << endl;
   _getch();
-
 }

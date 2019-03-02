@@ -1,6 +1,3 @@
-﻿  cinSimulator.cpp
-c:\users\tsqua\documents\github\csc-trusty\csc 1101\lab code\cinsimulator.cpp(88): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\tsqua\documents\github\csc-trusty\csc 1101\lab code\cinsimulator.cpp(136): warning C4101: 'chr': unreferenced local variable
-c:\users\tsqua\documents\github\csc-trusty\csc 1101\lab code\cinsimulator.cpp(135): warning C4101: 'rNum': unreferenced local variable
-  cinSimulator.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+﻿  File Read Function.cpp
+  File Read Function.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   ConApp2017.vcxproj -> C:\Users\tsqua\Documents\Github\CSC-Trusty\CSC 1101\Projects\ConApp2017\x64\Debug\ConApp2017.exe
