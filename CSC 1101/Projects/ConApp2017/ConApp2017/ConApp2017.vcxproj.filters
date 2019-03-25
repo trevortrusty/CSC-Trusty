@@ -25,10 +25,13 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lab Code\File Read Function.cpp">
+    <Text Include="instruct.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Lab Code\16-01_bikespeed.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Lab Code\12-01_vinNumbers.cpp">
+    <ClCompile Include="..\..\..\Lab Code\16-02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

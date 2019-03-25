@@ -20,6 +20,8 @@ using namespace std; // So "std::cout" may be abbreviated to "cout"
 
 const int Col1 = 17;
 const int Col2 = 12;
+
+//Function defined to be called inside each switch statement case
 void vinCase(string line, string year)
 {
 		cout << setw(Col1) << left << line; 
