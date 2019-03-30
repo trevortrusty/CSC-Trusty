@@ -96,7 +96,7 @@ int main()
 
 		cout << "Get another bicycle speed estimate (y or n)? ";
 		cin >> myChar;
-		myOption = optionConvert(myChar); // Convert new response to be checked again by sentinal loop
+		myOption = optionConvert(myChar); // Convert new response to be checked again by sentinel loop
 	}
 
 

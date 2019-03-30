@@ -1,3 +1,21 @@
-﻿cin >> myChar;
+﻿1.	Rename the copy you made to yourName_InClass_Lab17.cpp and save it into your CSC1101 folder. 
 
-while (myChar != 'n')
+2.	Complete the header comment.
+
+3.	Modify the application header and close to contain the application name.
+
+4.	Define an enumerator type grades that contains the values A=90, B=80, C=70, D=60, F=50. 
+
+5.	Prompt the user for a first name and store the value into a String variable.
+
+6.	Prompt the user for a last name and store the value into a different String variable.
+
+7.	Using a third String variable combine the two previous Strings with a space between them. Hint: (… = … + ‘ ’ + ...)
+
+8.	Prompt the user for a grade and store the value into a Char variable.
+
+9.	Declare a grades variable and using a switch statement match the user entered grade with the grades enumerator equivalent.
+			Hint: (case 'A': yourgradesvariable = A; break;
+
+10.	 Print out the combined String variable and the grades variable. Format it to match the sample output.
+

@@ -25,11 +25,10 @@
     <ResourceCompile Include="ConApp2017.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lab Code\16-01_bikespeed.cpp" />
-    <ClCompile Include="..\..\..\Lab Code\16-02.cpp" />
+    <Text Include="instruct.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="instruct.txt" />
+    <ClCompile Include="..\..\..\Lab Code\18-01_.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

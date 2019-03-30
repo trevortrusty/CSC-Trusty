@@ -28,10 +28,7 @@
     <Text Include="instruct.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lab Code\16-01_bikespeed.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Lab Code\16-02.cpp">
+    <ClCompile Include="..\..\..\Lab Code\18-01_.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
